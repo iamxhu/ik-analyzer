@@ -2,10 +2,12 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">  
 <properties>  
 	<comment>IK Analyzer 扩展配置</comment>
-	<!--用户可以在这里配置自己的扩展字典 
-	<entry key="ext_dict">/mydict.dic;</entry> 
-	-->	
-	<!--用户可以在这里配置自己的扩展停止词字典
-	<entry key="ext_stopwords">/ext_stopword.dic</entry> 
-	-->
+	<!--用户可以在这里配置自己的扩展字典 -->
+	<entry key="ext_dict">ext.dic;</entry> 
+	
+	<!--用户可以在这里配置自己的扩展停止词字典-->
+	<entry key="ext_stopwords">stopword.dic;</entry> 
+	<entry key="main_dic">/Users/star/Workspace/opensource/ik-analyzer-read-only/src/main/java/org/wltea/analyzer/dic/main2012.dic</entry>
+	<entry key="quantifier_dic">/Users/star/Workspace/opensource/ik-analyzer-read-only/src/main/java/org/wltea/analyzer/dic/quantifier.dic</entry>
+
 </properties>
