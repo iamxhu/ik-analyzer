@@ -1,3 +1,10 @@
+=========== 本fork分支说明 ===========
+1、增加IKAnalyzer对Lucene和Solr4.0以上版本的支持
+2、增加在Solr中使用的TokenFactory，并优化smartcn模式下的分词策略
+3、对于LetterSegment进行优化，更好处理英文连接数字，数字连接英文的分词。
+
+=========== 本fork分支说明 end  ===========
+
 IKAnalyzer是一个开源的，基于java语言开发的轻量级的中文分词工具包。从2006年12月推出1.0版开始，IKAnalyzer已经推出了3个大版本。最初，它是以开源项目Luence为应用主体的，结合词典分词和文法分析算法的中文分词组件。新版本的 IKAnalyzer3.0则发展为面向Java的公用分词组件，独立于Lucene项目，同时提供了对Lucene的默认优化实现。 
 
 IKAnalyzer3.0特性:
